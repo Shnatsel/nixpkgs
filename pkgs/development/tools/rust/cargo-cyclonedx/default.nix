@@ -3,11 +3,9 @@
 , rustPlatform
 , fetchFromGitHub
 , pkg-config
-, openssl
 , Security
 , SystemConfiguration
 , CoreFoundation
-, curl
 }:
 
 rustPlatform.buildRustPackage rec {
